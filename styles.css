@@ -15,5 +15,10 @@ body{
 
 .game-container {
     position: relative;
-  
+    width: 352px;
+    height:198px;
+    margin: 0 auto;
+    margin-top: 20px;
+    outline: 1px solid #fff;
+    transform: scale(3) translateY(50%);
 }
