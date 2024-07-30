@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+    background: #333;
+    padding: 0;
+    margin: 0;
+    /*Prevent scrolling if people use the arrow keys*/
+    overflow: hidden;
+    
+}
+
+
+.game-container {
+    position: relative;
+  
+}
