@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html>
-    <head>
-       <!--lets name the game--> 
-       <title>PyQuest</title>
-       <link href="/styles.css" type="text/css" rel="stylesheet">
-    </head>
+<head>
+    <title>PyQuest</title>
+    <link href="/styles.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="game-container">
+        <canvas class="game-canvas"></canvas>
+    </div>
 
-    <body>
-        <!--create a class for the java to reconize it-->
-        <div class="game-container">
-            <canvas class="game-canvas"></canvas>
-        </div>
-
-        
-        
-        <script src="/Spaceship.js"></script>
-        <script src="/init.js"></script>
-    </body>
+   
+    <script src="/background.js"></script>
+    <script src="/wall.js"></script>
+    <script src="/player.js"></script>
+    <script src="/game.js"></script>
+</body>
 </html>

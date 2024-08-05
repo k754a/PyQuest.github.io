@@ -10,10 +10,8 @@ class Background {
     }
 
     draw() {
-        const imageWidth = this.image.naturalWidth;
-        const imageHeight = this.image.naturalHeight;
-        const xOffset = (this.canvas.width - imageWidth) / 2;
-        const yOffset = (this.canvas.height - imageHeight) / 2;
-        this.ctx.drawImage(this.image, xOffset, yOffset);
+        const pattern = this.ctx.createPattern(this.image, 'repeat');
+        this.ctx.fillStyle = pattern;
+        this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
     }
 }

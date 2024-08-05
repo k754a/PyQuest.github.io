@@ -2,23 +2,24 @@
     box-sizing: border-box;
 }
 
-
-body{
+body {
     background: #333;
     padding: 0;
     margin: 0;
-    /*Prevent scrolling if people use the arrow keys*/
+   
     overflow: hidden;
-    
 }
-
 
 .game-container {
     position: relative;
     width: 352px;
-    height:198px;
+    height: 198px;
     margin: 0 auto;
     margin-top: 20px;
     outline: 1px solid #fff;
     transform: scale(3) translateY(50%);
+}
+
+canvas {
+    display: block; 
 }
